@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:$PORT app:myapp
+web: gunicorn -w 4 "flaskr:create_app()"
