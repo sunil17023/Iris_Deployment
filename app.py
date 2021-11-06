@@ -4,7 +4,7 @@ import numpy as np
 
 model = pickle.load(open("iris_model_deploy.pkl", "rb"))
 
-app = Flask(__name__, template_folder='C:\\Users\\batha\\PycharmProjects\\IrisDeployment\\templates',
+app = Flask(__name__, template_folder='https://github.com/sunil17023/Iris_Deployment/tree/main/templates',
             static_folder="C:\\Users\\batha\\PycharmProjects\\IrisDeployment\\static")
 
 
